@@ -1,0 +1,149 @@
+{
+  "project": "nusa-bengkel-servis-tutorial",
+  "title": "Tutorial Kasir Bengkel : Servis, Sparepart & Kembalian Otomatis",
+  "variant": "bengkel",
+  "total_duration_sec": 21.0,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/bengkel_servis_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Bengkel",
+      "start_sec": 0.0,
+      "end_sec": 3.8,
+      "narration": "Kelola bengkel motor dan mobil jadi jauh lebih rapi dengan NUSA Bengkel!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA BENGKEL : SERVIS & SPAREPART TERINTEGRASI"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Jasa Servis & Sparepart",
+      "start_sec": 3.8,
+      "end_sec": 8.8,
+      "narration": "Tinggal pilih jasa servis berkala, tambahkan sparepart dan oli mesin langsung dalam satu transaksi.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "GABUNGKAN JASA SERVIS & SPAREPART DALAM 1 STRUK"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.52},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Hitung Total & Kembalian Otomatis",
+      "start_sec": 8.8,
+      "end_sec": 13.0,
+      "narration": "Total tagihan dan hitungan uang kembalian otomatis akurat.",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "TOTAL TAGIHAN & HITUNG KEMBALIAN INSTAN"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Konfirmasi Pembayaran Kilat",
+      "start_sec": 13.0,
+      "end_sec": 17.0,
+      "narration": "Struk servis digital langsung jadi,",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KONFIRMASI PEMBAYARAN KILAT"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Digital Bengkel & WhatsApp",
+      "start_sec": 17.0,
+      "end_sec": 21.0,
+      "narration": "siap cetak printer thermal atau kirim ke WhatsApp pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK DIGITAL SIAP CETAK ATAU KIRIM WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Bengkel"
+    },
+    {
+      "offset_ms": 3800,
+      "action": "tap",
+      "x_pct": 0.731,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Layanan Servis"
+    },
+    {
+      "offset_ms": 5200,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.542,
+      "label": "Klik Tambah Jasa Servis Ringan + Tune Up"
+    },
+    {
+      "offset_ms": 6800,
+      "action": "tap",
+      "x_pct": 0.269,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Produk (Sparepart)"
+    },
+    {
+      "offset_ms": 8200,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.295,
+      "label": "Klik Tambah Oli Mesin Matic 10W-40"
+    },
+    {
+      "offset_ms": 9800,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.945,
+      "label": "Klik Lanjut Pembayaran"
+    },
+    {
+      "offset_ms": 11500,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.833,
+      "x2_pct": 0.500,
+      "y2_pct": 0.303,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke pilihan nominal uang"
+    },
+    {
+      "offset_ms": 12800,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.589,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 14200,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.937,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 17000,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.682,
+      "label": "Highlight Tombol Cetak Printer Thermal pada Struk"
+    }
+  ]
+}

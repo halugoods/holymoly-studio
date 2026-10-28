@@ -1,0 +1,135 @@
+{
+  "project": "nusa-apotek-farmasi-tutorial",
+  "title": "Tutorial Kasir Apotek : Transaksi Obat, Vitamin & Struk WhatsApp",
+  "variant": "apotek",
+  "total_duration_sec": 26.5,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/apotek_farmasi_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Apotek",
+      "start_sec": 0.0,
+      "end_sec": 4.5,
+      "narration": "Transaksi farmasi dan apotek jadi jauh lebih cepat dan teratur dengan NUSA Apotek!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA APOTEK : TRANSAKSI FARMASI CEPAT & TERTIB"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Obat Bebas & Vitamin",
+      "start_sec": 4.5,
+      "end_sec": 11.5,
+      "narration": "Tinggal pilih obat bebas, vitamin, atau produk kesehatan dalam satu keranjang rapi.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KATALOG LENGKAP OBAT BEBAS & VITAMIN"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.55},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Hitung Total & Kembalian Otomatis",
+      "start_sec": 11.5,
+      "end_sec": 17.0,
+      "narration": "Total belanja dan uang kembalian terhitung otomatis tanpa repot kalkulator.",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "TOTAL BELANJA & KEMBALIAN OTOMATIS"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Konfirmasi Pembayaran Kilat",
+      "start_sec": 17.0,
+      "end_sec": 21.5,
+      "narration": "Struk transaksi apotek digital langsung siap dicetak",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KONFIRMASI PEMBAYARAN KILAT"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Digital Farmasi & WhatsApp",
+      "start_sec": 21.5,
+      "end_sec": 26.5,
+      "narration": "atau dikirim ke WhatsApp pasien!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK DIGITAL FARMASI SIAP KIRIM WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Apotek"
+    },
+    {
+      "offset_ms": 4800,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.472,
+      "label": "Tambah Paracetamol 500mg Strip"
+    },
+    {
+      "offset_ms": 7200,
+      "action": "tap",
+      "x_pct": 0.736,
+      "y_pct": 0.472,
+      "label": "Tambah Minyak Kayu Putih 60ml"
+    },
+    {
+      "offset_ms": 9800,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.945,
+      "label": "Klik Lanjut Pembayaran"
+    },
+    {
+      "offset_ms": 12500,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.871,
+      "x2_pct": 0.500,
+      "y2_pct": 0.151,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke paling bawah"
+    },
+    {
+      "offset_ms": 14500,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.521,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 16800,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.869,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 21000,
+      "action": "tap",
+      "x_pct": 0.288,
+      "y_pct": 0.735,
+      "label": "Highlight Tombol Kirim WhatsApp Pasien pada Struk"
+    }
+  ]
+}

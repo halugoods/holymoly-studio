@@ -7,7 +7,7 @@ output_flow_ai/
 downloads/
 archive_legacy/
 tutorial_studio/output/
-media/cache/
+media/
 
 # Video & large audio binaries (except templates/SFX assets)
 *.mp4

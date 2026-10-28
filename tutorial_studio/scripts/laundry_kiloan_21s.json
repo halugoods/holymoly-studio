@@ -1,0 +1,149 @@
+{
+  "project": "nusa-laundry-kiloan-tutorial",
+  "title": "Tutorial Timbang Kiloan Cepat & Struk WhatsApp",
+  "variant": "laundry",
+  "total_duration_sec": 21.0,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/laundry_kiloan_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Laundry",
+      "start_sec": 0.0,
+      "end_sec": 3.6,
+      "narration": "Buka usaha laundry kiloan jadi super sat-set dengan NUSA Laundry!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA LAUNDRY : HITUNG KILOAN SAT-SET & AKURAT"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Layanan & Timbang Kiloan",
+      "start_sec": 3.6,
+      "end_sec": 8.5,
+      "narration": "Cukup pilih layanan cuci komplit, timbang pakaian, dan masukkan berat cuma dalam satu tap.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "TIMBANG KILOAN CEPAT DALAM 1 TAP"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.55},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Otomatis Hitung Tanpa Kalkulator",
+      "start_sec": 8.5,
+      "end_sec": 12.5,
+      "narration": "Harga otomatis terhitung akurat tanpa kalkulator manual.",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "AUTO-CALCULATION : ZERO KALKULATOR MANUAL"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Bayar Kilat Uang Pas",
+      "start_sec": 12.5,
+      "end_sec": 16.5,
+      "narration": "Terima pembayaran tunai atau QRIS kilat,",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "PEMBAYARAN INSTAN DENGAN UANG PAS"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Digital WhatsApp",
+      "start_sec": 16.5,
+      "end_sec": 21.0,
+      "narration": "dan struk digital siap dikirim langsung ke WhatsApp pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK DIGITAL SIAP KIRIM KE WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Laundry"
+    },
+    {
+      "offset_ms": 3800,
+      "action": "tap",
+      "x_pct": 0.731,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Layanan"
+    },
+    {
+      "offset_ms": 5500,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.527,
+      "label": "Klik Tambah pada Cuci Komplit Reguler"
+    },
+    {
+      "offset_ms": 7200,
+      "action": "tap",
+      "x_pct": 0.227,
+      "y_pct": 0.835,
+      "label": "Pilih Pill Berat 3 kg"
+    },
+    {
+      "offset_ms": 8800,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.901,
+      "label": "Klik Tambah ke Keranjang"
+    },
+    {
+      "offset_ms": 10800,
+      "action": "tap",
+      "x_pct": 0.818,
+      "y_pct": 0.938,
+      "label": "Klik Bayar (Rp 21.000)"
+    },
+    {
+      "offset_ms": 12500,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.833,
+      "x2_pct": 0.500,
+      "y2_pct": 0.303,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke Uang Pas"
+    },
+    {
+      "offset_ms": 13800,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.589,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 15200,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.937,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 17800,
+      "action": "tap",
+      "x_pct": 0.288,
+      "y_pct": 0.751,
+      "label": "Highlight Tombol Kirim WhatsApp pada Struk"
+    }
+  ]
+}

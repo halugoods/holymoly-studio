@@ -1,0 +1,142 @@
+{
+  "project": "nusa-fotocopy-cetak-tutorial",
+  "title": "Tutorial Kasir Fotocopy : Print Warna, Jasa Jilid & Struk WhatsApp",
+  "variant": "fotocopy",
+  "total_duration_sec": 20.0,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/fotocopy_cetak_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Fotocopy",
+      "start_sec": 0.0,
+      "end_sec": 3.5,
+      "narration": "Usaha fotocopy dan percetakan jadi makin lancar jaya dengan NUSA Fotocopy!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA FOTOCOPY : CETAK CEPAT & ORDER RAPI"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Jasa Print & Jilid",
+      "start_sec": 3.5,
+      "end_sec": 8.5,
+      "narration": "Hitung print warna, fotocopy per lembar, dan jasa jilid otomatis tanpa pusing corat-coret kertas.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "HITUNG PRINT & JILID OTOMATIS PER LEMBAR"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.52},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Hitung Total & Kembalian Otomatis",
+      "start_sec": 8.5,
+      "end_sec": 12.8,
+      "narration": "Terima pembayaran tunai atau QRIS, hitung uang kembalian instan,",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "HITUNG KEMBALIAN INSTAN DARI UANG BESAR"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Konfirmasi Pembayaran Kilat",
+      "start_sec": 12.8,
+      "end_sec": 16.0,
+      "narration": "dan struk pesanan siap langsung",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KONFIRMASI PEMBAYARAN KILAT"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Digital Percetakan & WhatsApp",
+      "start_sec": 16.0,
+      "end_sec": 20.0,
+      "narration": "dikirim ke WhatsApp pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK DIGITAL SIAP KIRIM KE WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1400,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Fotocopy"
+    },
+    {
+      "offset_ms": 3600,
+      "action": "tap",
+      "x_pct": 0.731,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Layanan Cetak"
+    },
+    {
+      "offset_ms": 5200,
+      "action": "tap",
+      "x_pct": 0.736,
+      "y_pct": 0.527,
+      "label": "Klik Tambah Print Warna Dokumen A4"
+    },
+    {
+      "offset_ms": 7200,
+      "action": "tap",
+      "x_pct": 0.736,
+      "y_pct": 0.850,
+      "label": "Klik Tambah Jilid Lakban Biasa"
+    },
+    {
+      "offset_ms": 9500,
+      "action": "tap",
+      "x_pct": 0.818,
+      "y_pct": 0.938,
+      "label": "Klik Bayar"
+    },
+    {
+      "offset_ms": 11200,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.833,
+      "x2_pct": 0.500,
+      "y2_pct": 0.303,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke Uang Pas"
+    },
+    {
+      "offset_ms": 12600,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.589,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 14000,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.937,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 17000,
+      "action": "tap",
+      "x_pct": 0.288,
+      "y_pct": 0.735,
+      "label": "Highlight Tombol Kirim WhatsApp pada Struk"
+    }
+  ]
+}

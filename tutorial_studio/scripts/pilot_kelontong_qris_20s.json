@@ -1,0 +1,128 @@
+{
+  "project": "nusa-kelontong-qris-tutorial",
+  "title": "Tutorial Kasir QRIS Dinamis Sat-Set",
+  "variant": "kelontong",
+  "total_duration_sec": 16.5,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/pilot_kelontong_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro Hook",
+      "start_sec": 0.0,
+      "end_sec": 2.2,
+      "narration": "Jualan kelontong jadi jauh lebih sat-set!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA KELONTONG : TRANSAKSI CEPAT & MODERN"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Add Items to Cart",
+      "start_sec": 2.2,
+      "end_sec": 6.2,
+      "narration": "Tinggal pilih barang belanjaan beras dan minyak goreng...",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "PILIH PRODUK LANGSUNG KE KERANJANG"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.47},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Checkout & QRIS Selection",
+      "start_sec": 6.2,
+      "end_sec": 8.8,
+      "narration": "...lalu klik bayar dan pilih QRIS kasir otomatis.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "METODE QRIS DINAMIS OTOMATIS"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.74},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Dynamic QRIS Spotlight",
+      "start_sec": 8.8,
+      "end_sec": 12.0,
+      "narration": "QR code langsung muncul seketika dengan nominal pas.",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "QR CODE GENERATED : NOMINAL PAS RP 111.500"
+      },
+      "camera": {"zoom": 1.38, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Payment & Receipt",
+      "start_sec": 12.0,
+      "end_sec": 16.5,
+      "narration": "Begitu pelanggan bayar, status lunas otomatis dan struk belanja langsung jadi!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "LUNAS OTOMATIS & STRUK BELANJA INSTAN"
+      },
+      "camera": {"zoom": 1.18, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 2500,
+      "action": "tap",
+      "x_pct": 0.258,
+      "y_pct": 0.470,
+      "label": "Tambah Beras Premium 5kg"
+    },
+    {
+      "offset_ms": 4200,
+      "action": "tap",
+      "x_pct": 0.728,
+      "y_pct": 0.470,
+      "label": "Tambah Minyak Goreng 2L"
+    },
+    {
+      "offset_ms": 6400,
+      "action": "tap",
+      "x_pct": 0.806,
+      "y_pct": 0.934,
+      "label": "Klik Bayar -> (Buka Layar Pembayaran)"
+    },
+    {
+      "offset_ms": 7800,
+      "action": "tap",
+      "x_pct": 0.454,
+      "y_pct": 0.739,
+      "label": "Pilih Metode QRIS"
+    },
+    {
+      "offset_ms": 9000,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.800,
+      "x2_pct": 0.500,
+      "y2_pct": 0.450,
+      "duration_ms": 300,
+      "label": "Swipe up tampilkan QRIS dan Tombol Konfirmasi"
+    },
+    {
+      "offset_ms": 11800,
+      "action": "tap",
+      "x_pct": 0.484,
+      "y_pct": 0.868,
+      "label": "Konfirmasi Pembayaran (Rp 111.500)"
+    },
+    {
+      "offset_ms": 14500,
+      "action": "tap",
+      "x_pct": 0.463,
+      "y_pct": 0.619,
+      "label": "Selesai & Tutup Struk (Kembali ke POS Bersih)"
+    }
+  ]
+}

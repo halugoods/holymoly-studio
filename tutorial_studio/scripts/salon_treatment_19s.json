@@ -1,0 +1,149 @@
+{
+  "project": "nusa-salon-treatment-tutorial",
+  "title": "Tutorial Kasir Salon : Treatment Rambut, Retail Produk & Struk WhatsApp",
+  "variant": "salon",
+  "total_duration_sec": 19.5,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/salon_treatment_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Salon",
+      "start_sec": 0.0,
+      "end_sec": 3.5,
+      "narration": "Bikin bisnis salon dan barbershop kamu naik kelas dengan NUSA Salon!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA SALON : TREATMENT & RETAIL ELEGAN"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Treatment & Vitamin Rambut",
+      "start_sec": 3.5,
+      "end_sec": 8.2,
+      "narration": "Gabungkan paket potong rambut, cuci blow styling, dan produk vitamin rambut dalam satu kasir fleksibel.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "PAKET TREATMENT & VITAMIN RAMBUT LENGKAP"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.52},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Hitung Tagihan & Uang Pas",
+      "start_sec": 8.2,
+      "end_sec": 12.2,
+      "narration": "Dukung reservasi jadwal stylist, hitung tagihan otomatis,",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "HITUNG TAGIHAN & RESERVASI FLEKSIBEL"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Konfirmasi Pembayaran Kilat",
+      "start_sec": 12.2,
+      "end_sec": 15.5,
+      "narration": "dan struk elegan langsung siap",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KONFIRMASI PEMBAYARAN KILAT"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Digital Salon & WhatsApp",
+      "start_sec": 15.5,
+      "end_sec": 19.5,
+      "narration": "dikirim ke WhatsApp pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK ELEGAN SIAP KIRIM KE WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1400,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Salon"
+    },
+    {
+      "offset_ms": 3600,
+      "action": "tap",
+      "x_pct": 0.731,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Layanan"
+    },
+    {
+      "offset_ms": 4800,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.542,
+      "label": "Klik Tambah Potong Rambut"
+    },
+    {
+      "offset_ms": 6500,
+      "action": "tap",
+      "x_pct": 0.269,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Produk (Retail)"
+    },
+    {
+      "offset_ms": 7800,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.527,
+      "label": "Klik Tambah Hair Vitamin Serum 100ml"
+    },
+    {
+      "offset_ms": 9500,
+      "action": "tap",
+      "x_pct": 0.818,
+      "y_pct": 0.938,
+      "label": "Klik Bayar"
+    },
+    {
+      "offset_ms": 11200,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.871,
+      "x2_pct": 0.500,
+      "y2_pct": 0.151,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke Uang Pas"
+    },
+    {
+      "offset_ms": 12600,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.531,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 14000,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.937,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 16500,
+      "action": "tap",
+      "x_pct": 0.288,
+      "y_pct": 0.735,
+      "label": "Highlight Tombol Kirim WhatsApp pada Struk"
+    }
+  ]
+}

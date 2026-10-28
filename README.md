@@ -11,6 +11,23 @@ Developed by **Halu Goods Indonesia**.
 
 ---
 
+## 📺 Flagship Showcase Gallery (Live Previews)
+
+Berikut adalah kompilasi hasil video nyata yang diproduksi otomatis oleh **Holymoly Studio** menggunakan arketipe editing yang telah dilatih (*trained editing skills*). Setiap video menerapkan kanvas vertikal 9:16 (`1080x1920`), zero crop, forced alignment audio narator asli, dan tipografi murni tanpa boks slop.
+
+| Arketipe & Skill | Live Preview (Animated) | Fitur Utama & Master Video |
+| :--- | :---: | :--- |
+| **Dual-Screen Workstation**<br>`@hm-nusa-pc-connect-studio`<br>*NUSA Fotocopy (62s)* | <img src="assets/showcase/showcase_pc_connect_workstation.gif" width="220" alt="Dual Screen Preview" /> | • Transisi mulus HP mengecil & turun (`1.0x -> 0.42x`)<br>• PC browser meluncur turun dengan zoom keluar<br>• Midpoint glass LAN badge simetris (`152px`)<br>• Kursor taktil mouse click & mobile touch ripple<br>• Smart focal zoom `1.45x`<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1k6jcu5HwR8OpzfxWZqPB8QgV9ab9s8mN/view?usp=sharing) |
+| **Cinematic Flow MCP Hybrid**<br>`@hm-flow-broll-hybrid-studio`<br>*NUSA Kelontong (60s)* | <img src="assets/showcase/showcase_flow_hybrid_kelontong.gif" width="220" alt="Flow MCP Hybrid Preview" /> | • Google Flow (Veo 3.1 & Imagen 3) B-Roll realistis<br>• Steady cam locked-off thermal printer macro<br>• Sinkronisasi checkout POS dengan kertas struk riil<br>• 100% Dynamic Duration & 1.0x Native VO<br>• Pure Typography floating subtitle<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1VphQXWb6L4maoovKA4TeSMd_Aljbf3bs/view?usp=sharing) |
+| **Investigative Documentary**<br>`@hm-vox-vertical-commercial-studio`<br>*NUSA Kasir Vox (30s)* | <img src="assets/showcase/showcase_vox_documentary.gif" width="220" alt="Vox Documentary Preview" /> | • In-Scene 4-Point Perspective Quad-Warp ke HP aktor<br>• Specular glass sheen & realistic corner radius<br>• Higienitas foto 100% fresh (Zero-recycle)<br>• Koreografi transient SFX & ducking musik -7 dB<br>• Pacing investigatif ala Vox / Johnny Harris<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1-uTEzAtM2dHrhLArBHgdnw9abpqWqt-F/view?usp=sharing) |
+| **Fast Editorial Montage**<br>`@hm-editorial-montage-studio`<br>*NUSA Proof-Hunting (35s)* | <img src="assets/showcase/showcase_editorial_montage.gif" width="220" alt="Editorial Montage Preview" /> | • 3x3 Tile Reveal & random flash entrance<br>• 2-Frame Strobe krisis per 66ms dengan difference box<br>• Sapuan stabilo kuning `#FFE04A` pada kartu tagihan<br>• Didone shock keyword masif 160px<br>• 3D perspective photo wall UMKM<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1r1uVuH-2_Q7I-gCeN5yCT4MU4ofRJH44/view?usp=sharing) |
+| **Basic Mockup Demo**<br>`@hm-screenrecord-mockup-studio`<br>*NUSA Salon (25s)* | <img src="assets/showcase/showcase_screenrecord_salon.gif" width="220" alt="Screenrecord Mockup Preview" /> | • Vector Samsung Galaxy Z Flip 3 frame terpusat (`cx=540, cy=960`)<br>• Infinite seamless scrolling blurred grid background<br>• Zero Crop: status bar jam/wifi hingga navigasi bawah utuh<br>• Punch-in camera zoom terarah ke tap points<br>• Zero Subtitle Slop (mode demo elegan)<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1A1J4zdH7EZ1RTvmuobjh_CKqqb2zTkkr/view?usp=sharing) |
+
+> 📁 **Arsip Lengkap Seluruh Master Output Video:**  
+> [**Buka Folder Google Drive Holymoly Studio**](https://drive.google.com/drive/folders/14CIAznZOlM9NWapNg9w1Y2WA-raJzUTv?usp=sharing) (Akun `nusabyhalugoodsindonesia@gmail.com`)
+
+---
+
 ## 💎 Standar Produksi & Directives Baku
 
 Holymoly Studio memegang teguh 6 pilar standar tanpa kompromi (*Anti-Slop & Anti-Glitch*):
@@ -30,6 +47,22 @@ Holymoly Studio memegang teguh 6 pilar standar tanpa kompromi (*Anti-Slop & Anti
    - Sinkronisasi transient SFX presisi milidetik.
 6. **Pre-Delivery Agentic Audit Loop**:
    - Audit frame otomatis tiap beat, analisis waveform suara, dan pembersihan metadata C2PA sebelum disajikan ke pengguna.
+
+---
+
+## 🧠 7 Trained Editing Skills
+
+Koleksi skill editing yang telah dilatih dan terintegrasi dalam Antigravity:
+
+| Skill | Prefix | Deskripsi & Fungsi |
+| :--- | :--- | :--- |
+| `@hm-editor-persona` | `hm-` | Persona Senior Creative Video Director & Master Editor Holymoly Studio |
+| `@hm-nusa-pc-connect-studio` | `hm-` | Arketipe Dual-Screen Workstation (PC Browser + HP Z Flip 3 + LAN Badge) |
+| `@hm-flow-broll-hybrid-studio` | `hm-` | Arketipe Cinematic Flow MCP B-Roll bergantian dengan Device Mockup |
+| `@hm-vox-vertical-commercial-studio` | `hm-` | Arketipe Video Komersial Dokumenter Investigatif 9:16 (Vox / Johnny Harris) |
+| `@hm-editorial-montage-studio` | `hm-` | Arketipe Video Editorial Montage Cepat & Proof-Hunting 9:16 |
+| `@hm-screenrecord-mockup-studio` | `hm-` | Arketipe Template Basic Mockup HP Z Flip 3 terpusat + Infinite Scrolling Grid |
+| `@hm-holymoly-studio` | `hm-` | Core universal headless video engine & pipeline coordinator |
 
 ---
 
@@ -60,8 +93,14 @@ flowchart LR
 
 ```
 holymoly_studio/
+├── assets/
+│   ├── showcase/                 # Live animated GIF showcase gallery (README)
+│   ├── zflip3_body_pure.png      # Samsung Galaxy Z Flip 3 frame
+│   ├── zflip3_screen_mask.png    # Alpha rounded corner mask
+│   └── sfx/                      # Transient sound effects (click, whoosh, swish)
 ├── engine/
 │   ├── wa_dispatcher.py          # WhatsApp preview dispatcher (whatsmeow bridge)
+│   ├── gdrive_sync.py            # Google Drive automated upload & sharing
 │   ├── cleaner.py                # C2PA metadata cleaner & sanitizer
 │   ├── bridge_server.py          # WebSocket / IPC bridge
 │   ├── render_neuro_motion.py    # OpenCV compositing engine
@@ -74,7 +113,6 @@ holymoly_studio/
 │       ├── generate_zflip3_frame.py     # Samsung Z Flip 3 vector mockup generator
 │       ├── generate_grid_loop.py        # Infinite seamless scrolling grid loop
 │       └── generate_screen_mask.py      # Lanczos rounded corner alpha mask
-├── assets/                       # UI mockups, icons, SFX audio samples
 ├── config/                       # Audio presets, subtitle styles, color palettes
 └── projects/                     # Multi-variant project files & scripts
 ```

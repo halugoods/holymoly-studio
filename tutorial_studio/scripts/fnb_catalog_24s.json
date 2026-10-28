@@ -1,0 +1,121 @@
+{
+  "project": "nusa-fnb-catalog-tutorial",
+  "title": "Tutorial Katalog Resto & Privacy Shield Gallery",
+  "variant": "fnb",
+  "total_duration_sec": 23.5,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/fnb_catalog_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Overview",
+      "start_sec": 0.0,
+      "end_sec": 3.8,
+      "narration": "Mau menu resto dan cafe kamu tampil makin estetik dan menggugah selera?",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA F&B : MENU RESTO ESTETIK & PRIVASI AMAN"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Katalog Produk & Pilih Menu",
+      "start_sec": 3.8,
+      "end_sec": 8.2,
+      "narration": "Di NUSA F&B, tinggal buka daftar produk dan pilih menu favoritmu.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "DAFTAR MENU LENGKAP DENGAN FOTO HD"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.52},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Ganti Foto Privacy Shield",
+      "start_sec": 8.2,
+      "end_sec": 13.0,
+      "narration": "Ganti foto jadi super gampang berkat katalog Privacy Shield,",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "PRIVACY SHIELD : ZERO AKSES GALERI PRIBADI"
+      },
+      "camera": {"zoom": 1.35, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Pilih Foto HD Bebas Bocor Privasi",
+      "start_sec": 13.0,
+      "end_sec": 18.2,
+      "narration": "bebas pilih puluhan foto makanan HD tanpa perlu akses galeri pribadi HP.",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "PILIH FOTO HD SEKETIKA DALAM 1 TAP"
+      },
+      "camera": {"zoom": 1.40, "focus_x_pct": 0.5, "focus_y_pct": 0.62},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Simpan & Hasil Katalog Rapi",
+      "start_sec": 18.2,
+      "end_sec": 23.5,
+      "narration": "Katalog langsung terupdate seketika, rapi, dan siap dipesan pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KATALOG TERUPDATE SIAP TRANSAKSI"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.55},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 2200,
+      "action": "tap",
+      "x_pct": 0.189,
+      "y_pct": 0.418,
+      "label": "Buka Menu Produk (Daftar Produk)"
+    },
+    {
+      "offset_ms": 5500,
+      "action": "tap",
+      "x_pct": 0.306,
+      "y_pct": 0.606,
+      "label": "Klik Edit pada Produk Ayam Bakar Madu"
+    },
+    {
+      "offset_ms": 8800,
+      "action": "tap",
+      "x_pct": 0.593,
+      "y_pct": 0.594,
+      "label": "Klik Ganti Foto (Buka Privacy Shield Picker)"
+    },
+    {
+      "offset_ms": 13500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.616,
+      "label": "Pilih Foto Nasi Goreng Spesial HD"
+    },
+    {
+      "offset_ms": 16500,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.909,
+      "x2_pct": 0.500,
+      "y2_pct": 0.151,
+      "duration_ms": 250,
+      "label": "Swipe up form ke tombol Simpan"
+    },
+    {
+      "offset_ms": 19200,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.934,
+      "label": "Klik Simpan Produk (Update Instan)"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "variant": "kelontong",
+  "name": "NUSA Kasir Kelontong Playbook",
+  "device_profile": {
+    "model": "Samsung Galaxy Z Flip3 5G (SM-F711B)",
+    "screen_width": 1080,
+    "screen_height": 2640,
+    "aspect_ratio": "22:9",
+    "recommended_policy": "immersive.full=com.nusa.dev"
+  },
+  "screens": {
+    "dashboard": {
+      "elements": {
+        "badge_sandbox": {"x": 540, "y": 360, "x_pct": 0.500, "y_pct": 0.136, "desc": "Sandbox Pill switcher at top bar"},
+        "menu_produk": {"x": 200, "y": 1000, "x_pct": 0.185, "y_pct": 0.379, "desc": "Katalog Produk"},
+        "menu_stok": {"x": 500, "y": 1000, "x_pct": 0.463, "y_pct": 0.379, "desc": "Manajemen Stok"},
+        "menu_transaksi": {"x": 810, "y": 1000, "x_pct": 0.750, "y_pct": 0.379, "desc": "Riwayat Transaksi"},
+        "btn_kasir_floating": {"x": 539, "y": 2524, "x_pct": 0.499, "y_pct": 0.956, "desc": "Tombol Buka Kasir / POS utama"},
+        "menu_pengaturan_scrolled": {"x": 539, "y": 2109, "x_pct": 0.499, "y_pct": 0.799, "desc": "Menu Pengaturan setelah scroll bawah"}
+      },
+      "gestures": {
+        "scroll_bottom": {"x1_pct": 0.5, "y1_pct": 0.75, "x2_pct": 0.5, "y2_pct": 0.2, "duration_ms": 300}
+      }
+    },
+    "pos": {
+      "elements": {
+        "btn_back_to_dashboard": {"x": 60, "y": 160, "x_pct": 0.056, "y_pct": 0.061, "desc": "Kembali ke Dashboard"},
+        "search_bar": {"x": 450, "y": 235, "x_pct": 0.417, "y_pct": 0.089, "desc": "Input Pencarian Produk"},
+        "category_semua": {"x": 120, "y": 350, "x_pct": 0.111, "y_pct": 0.133, "desc": "Filter Kategori: Semua"},
+        "category_sembako": {"x": 325, "y": 350, "x_pct": 0.301, "y_pct": 0.133, "desc": "Filter Kategori: Sembako"},
+        "product_card_1_add": {"x": 284, "y": 1123, "x_pct": 0.263, "y_pct": 0.425, "desc": "Tambah Beras Premium 5kg (Rp 75.000)"},
+        "product_card_2_add": {"x": 795, "y": 1123, "x_pct": 0.736, "y_pct": 0.425, "desc": "Tambah Minyak Goreng 2L (Rp 36.500)"},
+        "product_card_3_add": {"x": 284, "y": 1850, "x_pct": 0.263, "y_pct": 0.701, "desc": "Tambah Gula Pasir 1kg (Rp 17.500)"},
+        "product_card_4_add": {"x": 795, "y": 1850, "x_pct": 0.736, "y_pct": 0.701, "desc": "Tambah Telur Ayam 1kg (Rp 29.000)"},
+        "cart_bar_bayar": {"x": 815, "y": 2445, "x_pct": 0.755, "y_pct": 0.926, "desc": "Tombol Checkout Bayar -> di bar keranjang bawah"}
+      }
+    },
+    "payment": {
+      "elements": {
+        "btn_back_to_pos": {"x": 60, "y": 160, "x_pct": 0.056, "y_pct": 0.061, "desc": "Kembali ke Kasir"},
+        "method_tunai": {"x": 210, "y": 1870, "x_pct": 0.194, "y_pct": 0.708, "desc": "Metode Pembayaran Tunai (unscrolled)"},
+        "method_qris": {"x": 490, "y": 1870, "x_pct": 0.454, "y_pct": 0.708, "desc": "Metode Pembayaran QRIS (unscrolled)"},
+        "method_transfer": {"x": 780, "y": 1870, "x_pct": 0.722, "y_pct": 0.708, "desc": "Metode Pembayaran Transfer Bank (unscrolled)"},
+        "btn_simulasi_pelanggan_bayar": {"x": 540, "y": 2120, "x_pct": 0.500, "y_pct": 0.803, "desc": "Simulasi Pelanggan Bayar QRIS Instan (setelah swipe)"},
+        "btn_konfirmasi_pembayaran": {"x": 540, "y": 2555, "x_pct": 0.500, "y_pct": 0.968, "desc": "Konfirmasi Pembayaran Manual"}
+      }
+    },
+    "receipt_modal": {
+      "elements": {
+        "btn_close_x": {"x": 860, "y": 630, "x_pct": 0.796, "y_pct": 0.239, "desc": "Tutup modal struk"},
+        "btn_selesai_tutup": {"x": 540, "y": 1665, "x_pct": 0.500, "y_pct": 0.631, "desc": "Selesai & Tutup (kembali ke POS)"},
+        "btn_cetak_printer": {"x": 540, "y": 1820, "x_pct": 0.500, "y_pct": 0.689, "desc": "Cetak ke printer thermal Bluetooth SPP"},
+        "btn_share_wa": {"x": 287, "y": 1970, "x_pct": 0.266, "y_pct": 0.746, "desc": "Kirim Struk Digital via WhatsApp"},
+        "btn_unduh_pdf": {"x": 712, "y": 1970, "x_pct": 0.659, "y_pct": 0.746, "desc": "Unduh Struk PDF"}
+      }
+    },
+    "catalog_management": {
+      "elements": {
+        "btn_tambah_produk": {"x": 760, "y": 2350, "x_pct": 0.704, "y_pct": 0.890, "desc": "Tombol + Tambah Produk Baru"},
+        "btn_ganti_foto": {"x": 590, "y": 1570, "x_pct": 0.546, "y_pct": 0.595, "desc": "Pilih Foto Produk (Buka Mock In-App Gallery)"},
+        "mock_gallery_item_1": {"x": 300, "y": 1750, "x_pct": 0.278, "y_pct": 0.663, "desc": "Mock Foto Produk 1 (Beras)"},
+        "mock_gallery_item_2": {"x": 540, "y": 1750, "x_pct": 0.500, "y_pct": 0.663, "desc": "Mock Foto Produk 2 (Minyak)"},
+        "mock_gallery_item_3": {"x": 780, "y": 1750, "x_pct": 0.722, "y_pct": 0.663, "desc": "Mock Foto Produk 3 (Gula)"},
+        "btn_simpan_produk": {"x": 540, "y": 2450, "x_pct": 0.500, "y_pct": 0.928, "desc": "Simpan Data Produk"}
+      }
+    },
+    "onboarding": {
+      "elements": {
+        "btn_login_google": {"x": 540, "y": 2250, "x_pct": 0.500, "y_pct": 0.852, "desc": "Tombol Masuk dengan Google"},
+        "mock_google_account_1": {"x": 540, "y": 1860, "x_pct": 0.500, "y_pct": 0.705, "desc": "Akun Toko Berkah (Mock Google Sheet)"},
+        "pin_1": {"x": 240, "y": 1230, "x_pct": 0.222, "y_pct": 0.466, "desc": "Angka 1"},
+        "pin_2": {"x": 500, "y": 1230, "x_pct": 0.463, "y_pct": 0.466, "desc": "Angka 2"},
+        "pin_3": {"x": 760, "y": 1230, "x_pct": 0.704, "y_pct": 0.466, "desc": "Angka 3"},
+        "pin_4": {"x": 240, "y": 1430, "x_pct": 0.222, "y_pct": 0.542, "desc": "Angka 4"},
+        "pin_5": {"x": 500, "y": 1430, "x_pct": 0.463, "y_pct": 0.542, "desc": "Angka 5"},
+        "pin_6": {"x": 760, "y": 1430, "x_pct": 0.704, "y_pct": 0.542, "desc": "Angka 6"},
+        "pin_0": {"x": 500, "y": 1830, "x_pct": 0.463, "y_pct": 0.693, "desc": "Angka 0"}
+      }
+    },
+    "settings": {
+      "elements": {
+        "toggle_pin_kasir": {"x": 878, "y": 2556, "x_pct": 0.813, "y_pct": 0.968, "desc": "Toggle PIN Kasir di Kasir"},
+        "kebijakan_privasi": {"x": 580, "y": 2418, "x_pct": 0.537, "y_pct": 0.916, "desc": "Teks Kebijakan Privasi (5x tap rahasia)"}
+      }
+    }
+  }
+}

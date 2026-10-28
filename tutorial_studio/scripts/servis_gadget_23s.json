@@ -1,0 +1,142 @@
+{
+  "project": "nusa-servis-gadget-tutorial",
+  "title": "Tutorial Kasir Servis : Servis Gadget, Sparepart & Struk WhatsApp",
+  "variant": "servis",
+  "total_duration_sec": 23.0,
+  "audio_track": "C:/Users/ertyui/ZCodeProject/holymoly_studio/tutorial_studio/output/servis_gadget_vo.wav",
+  "beats": [
+    {
+      "beat_id": 1,
+      "name": "Intro & Dashboard Servis",
+      "start_sec": 0.0,
+      "end_sec": 4.0,
+      "narration": "Kelola konter servis HP, laptop, dan elektronik jadi jauh lebih profesional dengan NUSA Servis!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "NUSA SERVIS : SOLUSI KONTER SERVIS PROFESIONAL"
+      },
+      "camera": {"zoom": 1.0, "focus_x_pct": 0.5, "focus_y_pct": 0.5},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 2,
+      "name": "Pilih Jasa Servis & Aksesoris",
+      "start_sec": 4.0,
+      "end_sec": 9.8,
+      "narration": "Catat jasa perbaikan, pasang sparepart baru, dan aksesoris dalam satu nota terintegrasi.",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "GABUNGKAN JASA SERVIS & AKSESORIS GADGET"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.52},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 3,
+      "name": "Hitung Total & Uang Pas",
+      "start_sec": 9.8,
+      "end_sec": 14.5,
+      "narration": "Hitung tagihan transparan, bebas ribet hitung manual,",
+      "directive": "SKILL_MOTION_CALLOUT",
+      "callout": {
+        "text": "HITUNG TOTAL TAGIHAN TRANSPARAN & AKURAT"
+      },
+      "camera": {"zoom": 1.30, "focus_x_pct": 0.5, "focus_y_pct": 0.65},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 4,
+      "name": "Konfirmasi Pembayaran Kilat",
+      "start_sec": 14.5,
+      "end_sec": 18.5,
+      "narration": "dan struk tanda terima servis langsung siap",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "KONFIRMASI PEMBAYARAN KILAT"
+      },
+      "camera": {"zoom": 1.25, "focus_x_pct": 0.5, "focus_y_pct": 0.60},
+      "adb_state": "ACTIVE"
+    },
+    {
+      "beat_id": 5,
+      "name": "Struk Tanda Terima Servis & WhatsApp",
+      "start_sec": 18.5,
+      "end_sec": 23.0,
+      "narration": "dikirim ke WhatsApp pelanggan!",
+      "directive": "SKILL_PUNCH_IN",
+      "callout": {
+        "text": "STRUK TANDA TERIMA SERVIS SIAP KIRIM WHATSAPP"
+      },
+      "camera": {"zoom": 1.15, "focus_x_pct": 0.5, "focus_y_pct": 0.50},
+      "adb_state": "ACTIVE"
+    }
+  ],
+  "adb_timeline": [
+    {
+      "offset_ms": 1500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.933,
+      "label": "Buka Kasir Servis"
+    },
+    {
+      "offset_ms": 4000,
+      "action": "tap",
+      "x_pct": 0.731,
+      "y_pct": 0.184,
+      "label": "Pilih Tab Layanan Perbaikan"
+    },
+    {
+      "offset_ms": 6000,
+      "action": "tap",
+      "x_pct": 0.736,
+      "y_pct": 0.527,
+      "label": "Klik Tambah Jasa Ganti LCD Smartphone"
+    },
+    {
+      "offset_ms": 8200,
+      "action": "tap",
+      "x_pct": 0.263,
+      "y_pct": 0.865,
+      "label": "Klik Tambah Jasa Ganti Baterai + Kalibrasi"
+    },
+    {
+      "offset_ms": 10500,
+      "action": "tap",
+      "x_pct": 0.818,
+      "y_pct": 0.938,
+      "label": "Klik Bayar"
+    },
+    {
+      "offset_ms": 12200,
+      "action": "swipe",
+      "x1_pct": 0.500,
+      "y1_pct": 0.833,
+      "x2_pct": 0.500,
+      "y2_pct": 0.303,
+      "duration_ms": 300,
+      "label": "Scroll up form pembayaran ke Uang Pas"
+    },
+    {
+      "offset_ms": 13800,
+      "action": "tap",
+      "x_pct": 0.169,
+      "y_pct": 0.589,
+      "label": "Pilih Nominal Uang Pas (Kembalian Rp 0)"
+    },
+    {
+      "offset_ms": 15200,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.937,
+      "label": "Klik Konfirmasi Pembayaran"
+    },
+    {
+      "offset_ms": 17500,
+      "action": "tap",
+      "x_pct": 0.500,
+      "y_pct": 0.682,
+      "label": "Highlight Tombol Cetak Printer pada Struk Tanda Terima"
+    }
+  ]
+}
