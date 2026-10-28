@@ -1,0 +1,34 @@
+{
+  "active_account": "nusabyhalugoodsindonesia@gmail.com",
+  "active_session_id": "15d998c3-d6d6-4852-a801-e994f696bf04-v2",
+  "remote_url": "https://accounts.google.com/AccountChooser?Email=nusabyhalugoodsindonesia%40gmail.com&continue=https%3A%2F%2Fantigravity.google.com%2Fr%2F15d998c3-d6d6-4852-a801-e994f696bf04-v2",
+  "status": "connected",
+  "last_switched": "2026-10-28T03:30:00Z",
+  "desktop_active_account": "nusabyhalugoodsindonesia@gmail.com",
+  "known_accounts": [
+    {
+      "email": "nusabyhalugoodsindonesia@gmail.com",
+      "session_id": "15d998c3-d6d6-4852-a801-e994f696bf04-v2",
+      "label": "Antigravity Official (Desktop Active)",
+      "is_active": true
+    },
+    {
+      "email": "ujugujug.delivery@gmail.com",
+      "session_id": "",
+      "label": "Secondary Internal",
+      "is_active": false
+    },
+    {
+      "email": "halugoods.indonesia@gmail.com",
+      "session_id": "",
+      "label": "Halu Goods Org",
+      "is_active": false
+    },
+    {
+      "email": "djuhairsyams.sd@gmail.com",
+      "session_id": "",
+      "label": "Cloudflare Internal / Syams",
+      "is_active": false
+    }
+  ]
+}

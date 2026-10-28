@@ -1,0 +1,38 @@
+# Holymoly Studio .gitignore
+
+# Output media & large binary caches
+output/
+output_clean/
+output_flow_ai/
+downloads/
+archive_legacy/
+tutorial_studio/output/
+media/cache/
+
+# Video & large audio binaries (except templates/SFX assets)
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.ts
+*.webm
+*.zip
+*.tar.gz
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Environment & Secrets
+.env
+.env.local
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db

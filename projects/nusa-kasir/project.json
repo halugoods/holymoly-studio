@@ -1,0 +1,23 @@
+{
+  "id": "nusa-kasir",
+  "name": "NUSA Kasir",
+  "description": "Ekosistem Konten & Video Studio 8 Varian UMKM Indonesia",
+  "type": "nusa",
+  "default_variant": "kelontong",
+  "created_at": "2026-10-28T05:29:40.015121+00:00",
+  "last_active": "2026-10-28T05:39:53.782043+00:00",
+  "status": "active",
+  "session_id": "15d998c3-d6d6-4852-a801-e994f696bf04-v2",
+  "onboarding_completed": true,
+  "onboarding_answers": {
+    "role": "Founder / Business Owner",
+    "category": "Multi-Business / 8 Varian NUSA",
+    "goal": "Demo Tutorial Fitur Aplikasi & Storytelling Solusi",
+    "visual_style": "Centered Vector Mockup Z Flip 3",
+    "voiceover": "Charon (Maskulin Berwibawa & Hangat)",
+    "tone": "Bahasa Indonesia Kasual & Akrab",
+    "assets": "Pakai Seed Hint Otomatis NUSA",
+    "channel": "TikTok & Instagram Reels (9:16)"
+  },
+  "antigravity_cascade_id": "6b86840e-d173-4068-89d2-90ffe33ae561"
+}

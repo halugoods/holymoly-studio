@@ -1,0 +1,277 @@
+[
+  {
+    "id": "msg_1793042199298",
+    "role": "assistant",
+    "timestamp": "2026-10-26T19:16:39.296994+00:00",
+    "text": "Selamat datang di project baru **Warung Kopi Sedap**!\n\nAgar konten dan video yang kita buat presisi sesuai kebutuhanmu, mari jawab 8 pertanyaan singkat berikut:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 1,
+      "key": "role",
+      "title": "Peran & Identitas Pembuat",
+      "question": "Halo! Selamat datang di project baru. Kamu berperan sebagai apa dalam pembuatan konten ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Founder / Business Owner",
+          "desc": "Fokus branding, edukasi produk, dan konversi penjualan langsung."
+        },
+        {
+          "key": "B",
+          "label": "Performance Marketer / Ads",
+          "desc": "Fokus video iklan direct response, hook 3 detik, ROAS tinggi."
+        },
+        {
+          "key": "C",
+          "label": "Content Creator / SMM",
+          "desc": "Fokus storytelling organik, relatable, viral TikTok & Reels."
+        },
+        {
+          "key": "D",
+          "label": "Technical Educator / Trainer",
+          "desc": "Fokus tutorial step-by-step, fitur aplikasi detail, no-nonsense."
+        }
+      ]
+    }
+  },
+  {
+    "id": "msg_1793042201361",
+    "role": "user",
+    "timestamp": "2026-10-26T19:16:41.361228+00:00",
+    "text": "**Peran & Identitas Pembuat**: Founder / Business Owner",
+    "card_type": "onboarding_answer",
+    "answer_data": {
+      "step": 1,
+      "key": "role",
+      "selected": "A",
+      "label": "Founder / Business Owner"
+    }
+  },
+  {
+    "id": "msg_1793042201396",
+    "role": "assistant",
+    "timestamp": "2026-10-26T19:16:41.395608+00:00",
+    "text": "Pertanyaan 2 dari 8:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 2,
+      "key": "category",
+      "title": "Kategori Bisnis & Industri Target",
+      "question": "Apa bidang usaha atau industri target dari project ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Retail / Toko Kelontong & Sembako",
+          "desc": "Kasir POS, stok barang, barcode scan, bon utang."
+        },
+        {
+          "key": "B",
+          "label": "FnB / Resto, Kafe, Kuliner",
+          "desc": "Menu pesanan, split bill, cetak dapur, QRIS meja."
+        },
+        {
+          "key": "C",
+          "label": "Jasa / Laundry, Bengkel, Salon, Servis",
+          "desc": "Layanan per-kilo/per-item, status pengerjaan, nota WA."
+        },
+        {
+          "key": "D",
+          "label": "Multi-Business / 8 Varian NUSA",
+          "desc": "Kombinasi 8 varian usaha serba 1 HP serba bisa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "msg_1793047724376",
+    "role": "user",
+    "timestamp": "2026-10-26T20:48:44.376517+00:00",
+    "text": "**Peran & Identitas Pembuat**: Founder / Business Owner",
+    "card_type": "onboarding_answer",
+    "answer_data": {
+      "step": 1,
+      "key": "role",
+      "selected": "A",
+      "label": "Founder / Business Owner"
+    }
+  },
+  {
+    "id": "msg_1793047724383",
+    "role": "assistant",
+    "timestamp": "2026-10-26T20:48:44.382059+00:00",
+    "text": "Pertanyaan 2 dari 8:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 2,
+      "key": "category",
+      "title": "Kategori Bisnis & Industri Target",
+      "question": "Apa bidang usaha atau industri target dari project ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Retail / Toko Kelontong & Sembako",
+          "desc": "Kasir POS, stok barang, barcode scan, bon utang."
+        },
+        {
+          "key": "B",
+          "label": "FnB / Resto, Kafe, Kuliner",
+          "desc": "Menu pesanan, split bill, cetak dapur, QRIS meja."
+        },
+        {
+          "key": "C",
+          "label": "Jasa / Laundry, Bengkel, Salon, Servis",
+          "desc": "Layanan per-kilo/per-item, status pengerjaan, nota WA."
+        },
+        {
+          "key": "D",
+          "label": "Multi-Business / 8 Varian NUSA",
+          "desc": "Kombinasi 8 varian usaha serba 1 HP serba bisa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "msg_1793047724827",
+    "role": "user",
+    "timestamp": "2026-10-26T20:48:44.827404+00:00",
+    "text": "**Peran & Identitas Pembuat**: Founder / Business Owner",
+    "card_type": "onboarding_answer",
+    "answer_data": {
+      "step": 1,
+      "key": "role",
+      "selected": "A",
+      "label": "Founder / Business Owner"
+    }
+  },
+  {
+    "id": "msg_1793047724831",
+    "role": "assistant",
+    "timestamp": "2026-10-26T20:48:44.830810+00:00",
+    "text": "Pertanyaan 2 dari 8:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 2,
+      "key": "category",
+      "title": "Kategori Bisnis & Industri Target",
+      "question": "Apa bidang usaha atau industri target dari project ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Retail / Toko Kelontong & Sembako",
+          "desc": "Kasir POS, stok barang, barcode scan, bon utang."
+        },
+        {
+          "key": "B",
+          "label": "FnB / Resto, Kafe, Kuliner",
+          "desc": "Menu pesanan, split bill, cetak dapur, QRIS meja."
+        },
+        {
+          "key": "C",
+          "label": "Jasa / Laundry, Bengkel, Salon, Servis",
+          "desc": "Layanan per-kilo/per-item, status pengerjaan, nota WA."
+        },
+        {
+          "key": "D",
+          "label": "Multi-Business / 8 Varian NUSA",
+          "desc": "Kombinasi 8 varian usaha serba 1 HP serba bisa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "msg_1793047727764",
+    "role": "user",
+    "timestamp": "2026-10-26T20:48:47.764765+00:00",
+    "text": "**Peran & Identitas Pembuat**: Content Creator / SMM",
+    "card_type": "onboarding_answer",
+    "answer_data": {
+      "step": 1,
+      "key": "role",
+      "selected": "C",
+      "label": "Content Creator / SMM"
+    }
+  },
+  {
+    "id": "msg_1793047727769",
+    "role": "assistant",
+    "timestamp": "2026-10-26T20:48:47.768083+00:00",
+    "text": "Pertanyaan 2 dari 8:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 2,
+      "key": "category",
+      "title": "Kategori Bisnis & Industri Target",
+      "question": "Apa bidang usaha atau industri target dari project ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Retail / Toko Kelontong & Sembako",
+          "desc": "Kasir POS, stok barang, barcode scan, bon utang."
+        },
+        {
+          "key": "B",
+          "label": "FnB / Resto, Kafe, Kuliner",
+          "desc": "Menu pesanan, split bill, cetak dapur, QRIS meja."
+        },
+        {
+          "key": "C",
+          "label": "Jasa / Laundry, Bengkel, Salon, Servis",
+          "desc": "Layanan per-kilo/per-item, status pengerjaan, nota WA."
+        },
+        {
+          "key": "D",
+          "label": "Multi-Business / 8 Varian NUSA",
+          "desc": "Kombinasi 8 varian usaha serba 1 HP serba bisa."
+        }
+      ]
+    }
+  },
+  {
+    "id": "msg_1793047728239",
+    "role": "user",
+    "timestamp": "2026-10-26T20:48:48.239447+00:00",
+    "text": "**Peran & Identitas Pembuat**: Content Creator / SMM",
+    "card_type": "onboarding_answer",
+    "answer_data": {
+      "step": 1,
+      "key": "role",
+      "selected": "C",
+      "label": "Content Creator / SMM"
+    }
+  },
+  {
+    "id": "msg_1793047728245",
+    "role": "assistant",
+    "timestamp": "2026-10-26T20:48:48.244337+00:00",
+    "text": "Pertanyaan 2 dari 8:",
+    "card_type": "onboarding_question",
+    "question_data": {
+      "index": 2,
+      "key": "category",
+      "title": "Kategori Bisnis & Industri Target",
+      "question": "Apa bidang usaha atau industri target dari project ini?",
+      "options": [
+        {
+          "key": "A",
+          "label": "Retail / Toko Kelontong & Sembako",
+          "desc": "Kasir POS, stok barang, barcode scan, bon utang."
+        },
+        {
+          "key": "B",
+          "label": "FnB / Resto, Kafe, Kuliner",
+          "desc": "Menu pesanan, split bill, cetak dapur, QRIS meja."
+        },
+        {
+          "key": "C",
+          "label": "Jasa / Laundry, Bengkel, Salon, Servis",
+          "desc": "Layanan per-kilo/per-item, status pengerjaan, nota WA."
+        },
+        {
+          "key": "D",
+          "label": "Multi-Business / 8 Varian NUSA",
+          "desc": "Kombinasi 8 varian usaha serba 1 HP serba bisa."
+        }
+      ]
+    }
+  }
+]

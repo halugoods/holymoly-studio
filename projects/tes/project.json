@@ -1,0 +1,17 @@
+{
+  "id": "tes",
+  "name": "Tes",
+  "description": "Project Studio Antigravity",
+  "type": "custom",
+  "default_variant": null,
+  "created_at": "2026-10-28T04:37:12.385739+00:00",
+  "last_active": "2026-10-28T05:42:57.051391+00:00",
+  "status": "active",
+  "session_id": "15d998c3-d6d6-4852-a801-e994f696bf04-v2",
+  "onboarding_completed": true,
+  "onboarding_answers": {
+    "role": "Founder / Business Owner",
+    "goal": "Demo Tutorial Fitur Aplikasi & Storytelling Solusi"
+  },
+  "antigravity_cascade_id": "51621946-647f-4e61-984f-b4c5dcee4d11"
+}

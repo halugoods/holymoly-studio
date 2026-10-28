@@ -1,0 +1,15 @@
+{
+  "characters": [
+    {
+      "id": "test_pak_bambang",
+      "name": "Pak Bambang Sembako",
+      "mention": "@pak_bambang",
+      "type": "karakter",
+      "desc": "Pemilik toko kelontong ramah, batik lengan pendek, senyum hangat.",
+      "thumb": "http://localhost:4040/media/flow/NusaKasir916/scene-01.jpeg",
+      "isVideo": false
+    }
+  ],
+  "places": [],
+  "objects": []
+}

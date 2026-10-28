@@ -1,0 +1,452 @@
+[
+  {
+    "id": "achernar",
+    "name": "Achernar",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Soft, calm, and soothing voice with a higher pitch. Recommended for quiet or personal storytelling."
+  },
+  {
+    "id": "achird",
+    "name": "Achird",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Friendly, approachable, and warm voice with a lower-middle pitch. Recommended for casual walkthroughs or vlogs."
+  },
+  {
+    "id": "algenib",
+    "name": "Algenib",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Gravelly, grounded, and hard-hitting voice with a low pitch. Recommended for dramatic narration or intense stories."
+  },
+  {
+    "id": "algieba",
+    "name": "Algieba",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Smooth, relaxed, and polished voice with a low pitch. Recommended for corporate videos or polished explainers."
+  },
+  {
+    "id": "alnilam",
+    "name": "Alnilam",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Firm, direct, and commanding voice with a lower-middle pitch. Recommended for authoritative instructions or announcements."
+  },
+  {
+    "id": "aoede",
+    "name": "Aoede",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "en-US",
+    "accent": "General American",
+    "description": "Breezy, light, and relaxed voice with a medium pitch. Recommended for lifestyle or travel vlogs."
+  },
+  {
+    "id": "ar-001-advisor-1",
+    "name": "Authoritative Advisor 1",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "48-year-old Lawyer from the Arab World. Speaks Modern Standard Arabic. Currently sitting on couch. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-advisor-10",
+    "name": "Authoritative Advisor 10",
+    "gender": "male",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "50-year-old Lawyer from the Arab World. Speaks Modern Standard Arabic. Currently on npr. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-advisor-2",
+    "name": "Authoritative Advisor 2",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "43-year-old Lawyer from the Arab World. Speaks Modern Standard Arabic. Currently on the phone. Voice is warm and engaging."
+  },
+  {
+    "id": "ar-001-advisor-3",
+    "name": "Authoritative Advisor 3",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "36-year-old Lawyer from the Arab World. Speaks Modern Standard Arabic. Voice is relaxed."
+  },
+  {
+    "id": "ar-001-assistant-2",
+    "name": "Digital Assistant 2",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "49-year-old Sibling from the Arab World. Speaks Modern Standard Arabic. Currently sitting on couch. Sounds confident and clear."
+  },
+  {
+    "id": "ar-001-assistant-4",
+    "name": "Digital Assistant 4",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "40-year-old Sibling from the Arab World. Speaks Modern Standard Arabic. Voice is intimate talkshow."
+  },
+  {
+    "id": "ar-001-commercial-12",
+    "name": "Commercial Voiceover 12",
+    "gender": "male",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "27-year-old Influencer from the Arab World. Speaks Modern Standard Arabic. Voice is relaxed."
+  },
+  {
+    "id": "ar-001-commercial-2",
+    "name": "Commercial Voiceover 2",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "30-year-old Reality TV Star from the Arab World. Speaks Modern Standard Arabic. Currently in an indie film. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-commercial-3",
+    "name": "Commercial Voiceover 3",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "23-year-old Influencer from the Arab World. Speaks Modern Standard Arabic. Currently in an indie film. Sounds confident and clear."
+  },
+  {
+    "id": "ar-001-commercial-4",
+    "name": "Commercial Voiceover 4",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "29-year-old Reality TV Star from the Arab World. Speaks Modern Standard Arabic. Voice is textured, resonant, and soothing."
+  },
+  {
+    "id": "ar-001-commercial-5",
+    "name": "Commercial Voiceover 5",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "25-year-old Influencer from the Arab World. Speaks Modern Standard Arabic. Voice is light, airy, and precise"
+  },
+  {
+    "id": "ar-001-commercial-7",
+    "name": "Commercial Voiceover 7",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "28-year-old Reality TV Star from the Arab World. Speaks Modern Standard Arabic. Currently at a meditation retreat. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-concierge-11",
+    "name": "Concierge 11",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "24-year-old Executive Assistant from the Arab World. Speaks Modern Standard Arabic. Currently at an appointment. Sounds confident and clear."
+  },
+  {
+    "id": "ar-001-concierge-2",
+    "name": "Concierge 2",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "30-year-old Executive Assistant from the Arab World. Speaks Modern Standard Arabic. Voice is fast-paced, articulate, energetic."
+  },
+  {
+    "id": "ar-001-csagent-10",
+    "name": "Call Center Agent 10",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "25-year-old Customer Service Agent from the Arab World. Speaks Modern Standard Arabic. Voice is fast-paced, articulate, energetic."
+  },
+  {
+    "id": "ar-001-csagent-11",
+    "name": "Call Center Agent 11",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "59-year-old Social Worker from the Arab World. Speaks Modern Standard Arabic. Currently sitting next to you on an airplane. Sounds confident and clear."
+  },
+  {
+    "id": "ar-001-csagent-4",
+    "name": "Call Center Agent 4",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "49-year-old Customer Service Agent from the Arab World. Speaks Modern Standard Arabic. Currently on npr. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-csagent-8",
+    "name": "Call Center Agent 8",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "42-year-old Customer Service Agent from the Arab World. Speaks Modern Standard Arabic. Voice is laid-back, encouraging, and chill."
+  },
+  {
+    "id": "ar-001-techagent-10",
+    "name": "Tech Advisor 10",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "32-year-old Tech Support Agent from the Arab World. Speaks Modern Standard Arabic. Currently brainstorming in a meeting. Sounds confident and clear."
+  },
+  {
+    "id": "ar-001-techagent-11",
+    "name": "Tech Advisor 11",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "30-year-old Tech Support Agent from the Arab World. Speaks Modern Standard Arabic. Tone is objective, direct, and helpful"
+  },
+  {
+    "id": "ar-001-techagent-2",
+    "name": "Tech Advisor 2",
+    "gender": "female",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "30-year-old Tech Support Agent from the Arab World. Speaks Modern Standard Arabic. Voice is resonant and witty."
+  },
+  {
+    "id": "ar-001-techagent-4",
+    "name": "Tech Advisor 4",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "24-year-old Tech Support Agent from the Arab World. Speaks Modern Standard Arabic. Voice is crisp and eager."
+  },
+  {
+    "id": "ar-001-training-1",
+    "name": "Training Voiceover 1",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "22-year-old Cooking Show Host from the Arab World. Speaks Modern Standard Arabic. Voice is bright, breezy, and youthful."
+  },
+  {
+    "id": "ar-001-training-12",
+    "name": "Training Voiceover 12",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "51-year-old Instructional Video Host from the Arab World. Speaks Modern Standard Arabic. Voice is crisp and eager."
+  },
+  {
+    "id": "ar-001-training-2",
+    "name": "Training Voiceover 2",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "29-year-old Instructional Video Host from the Arab World. Speaks Modern Standard Arabic. Currently at an appointment. Tone is professional yet approachable."
+  },
+  {
+    "id": "ar-001-tutor-1",
+    "name": "Tutor 1",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "31-year-old Professor from the Arab World. Speaks Modern Standard Arabic. Voice is deep, velvety, and unhurried."
+  },
+  {
+    "id": "ar-001-tutor-2",
+    "name": "Tutor 2",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "45-year-old Teacher from the Arab World. Speaks Modern Standard Arabic. Voice is resonant and witty."
+  },
+  {
+    "id": "ar-001-tutor-3",
+    "name": "Tutor 3",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "51-year-old Fitness Trainer from the Arab World. Speaks Modern Standard Arabic. Currently on npr. Voice is warm and engaging."
+  },
+  {
+    "id": "ar-001-tutor-4",
+    "name": "Tutor 4",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-001",
+    "accent": "Modern Standard Arabic",
+    "description": "38-year-old Fitness Trainer from the Arab World. Speaks Modern Standard Arabic. Currently in a bookstore. Sounds confident and clear."
+  },
+  {
+    "id": "ar-eg-advisor-11",
+    "name": "Authoritative Advisor 11",
+    "gender": "female",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "60-year-old Researcher from Egypt. Speaks Egyptian Arabic. Voice is laid-back, encouraging, and chill."
+  },
+  {
+    "id": "ar-eg-advisor-12",
+    "name": "Authoritative Advisor 12",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "37-year-old Researcher from Egypt. Speaks Egyptian Arabic. Tone is objective, direct, and helpful"
+  },
+  {
+    "id": "ar-eg-advisor-4",
+    "name": "Authoritative Advisor 4",
+    "gender": "female",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "35-year-old Doctor from Egypt. Speaks Egyptian Arabic. Voice is textured, resonant, and soothing."
+  },
+  {
+    "id": "ar-eg-advisor-5",
+    "name": "Authoritative Advisor 5",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "37-year-old Financial Advisor from Egypt. Speaks Egyptian Arabic. Voice is laid-back, encouraging, and chill."
+  },
+  {
+    "id": "ar-eg-advisor-6",
+    "name": "Authoritative Advisor 6",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "32-year-old Doctor from Egypt. Speaks Egyptian Arabic. Currently at an appointment. Sounds confident and clear."
+  },
+  {
+    "id": "ar-eg-advisor-7",
+    "name": "Authoritative Advisor 7",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "57-year-old Financial Advisor from Egypt. Speaks Egyptian Arabic. Voice is resonant and witty."
+  },
+  {
+    "id": "ar-eg-advisor-8",
+    "name": "Authoritative Advisor 8",
+    "gender": "male",
+    "pitch": "high",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "41-year-old Doctor from Egypt. Speaks Egyptian Arabic. Currently sitting on couch. Sounds confident and clear."
+  },
+  {
+    "id": "ar-eg-advisor-9",
+    "name": "Authoritative Advisor 9",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "40-year-old Lawyer from Egypt. Speaks Egyptian Arabic. Voice is laid-back, encouraging, and chill."
+  },
+  {
+    "id": "ar-eg-assistant-1",
+    "name": "Digital Assistant 1",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "24-year-old Aunt/Uncle from Egypt. Speaks Egyptian Arabic. Currently on the phone. Voice is warm and engaging."
+  },
+  {
+    "id": "ar-eg-assistant-10",
+    "name": "Digital Assistant 10",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "69-year-old Grandparent from Egypt. Speaks Egyptian Arabic. Tone is reflective, calm, and reassuring"
+  },
+  {
+    "id": "ar-eg-assistant-11",
+    "name": "Digital Assistant 11",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "39-year-old Parent from Egypt. Speaks Egyptian Arabic. Currently on the phone. Sounds confident and clear."
+  },
+  {
+    "id": "ar-eg-assistant-12",
+    "name": "Digital Assistant 12",
+    "gender": "female",
+    "pitch": "high",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "34-year-old Parent from Egypt. Speaks Egyptian Arabic. Voice is comforting someone who is stressed."
+  },
+  {
+    "id": "ar-eg-assistant-3",
+    "name": "Digital Assistant 3",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "64-year-old Grandparent from Egypt. Speaks Egyptian Arabic. Voice is deep, velvety, and unhurried."
+  },
+  {
+    "id": "ar-eg-assistant-5",
+    "name": "Digital Assistant 5",
+    "gender": "female",
+    "pitch": "medium",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "38-year-old Aunt/Uncle from Egypt. Speaks Egyptian Arabic. Currently at a meditation retreat. Sounds confident and clear."
+  },
+  {
+    "id": "ar-eg-assistant-6",
+    "name": "Digital Assistant 6",
+    "gender": "male",
+    "pitch": "low",
+    "language_code": "ar-EG",
+    "accent": "Egyptian Arabic",
+    "description": "39-year-old Parent from Egypt. Speaks Egyptian Arabic. Currently on the phone. Sounds confident and clear."
+  }
+]
