@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Holymoly Studio · Motion Recipe & Skill Picker</title>
+  <meta name="description" content="Visual Motion Recipe & Skill Picker untuk Antigravity AI Video Engine. Pilih jurus, salin prompt, dan paste di chat AI.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <!-- Header / Topbar -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand-group">
+        <div class="brand-logo">🎬</div>
+        <div class="brand-text">
+          <span class="brand-title">HOLYMOLY STUDIO</span>
+          <span class="brand-subtitle">Motion Recipe & Skill Picker</span>
+        </div>
+      </div>
+
+      <div class="search-bar-wrapper">
+        <span class="search-icon">🔍</span>
+        <input type="text" id="searchInput" placeholder="Cari jurus visual, efek, keyword... (Ctrl+K)" autocomplete="off">
+        <kbd class="search-kbd">⌘K</kbd>
+      </div>
+
+      <div class="topbar-actions">
+        <a href="https://github.com/halugoods/holymoly-studio" target="_blank" class="btn-github" title="Lihat di GitHub">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          <span>GitHub</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <div class="layout-container">
+    <!-- Category Sidebar / Scroll Bar -->
+    <nav class="category-nav" id="categoryNav">
+      <div class="category-list" id="categoryList">
+        <!-- Rendered by JS -->
+      </div>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Banner Helper -->
+      <section class="helper-banner">
+        <div class="helper-content">
+          <div class="helper-badge">💡 Cara Pakai Antigravity Recipe Picker</div>
+          <h2>Pilih Jurus Visual, Salin Prompt, Tempel Langsung di Chat.</h2>
+          <p>
+            Tonton cuplikan animasi nyata di bawah ini. Centang satu atau beberapa jurus yang ingin kamu terapkan ke dalam video, lalu klik <strong>Salin Prompt Antigravity</strong> pada bilah aksi di bawah.
+          </p>
+        </div>
+        <div class="helper-stats">
+          <div class="stat-box">
+            <span class="stat-num" id="statHolymoly">5</span>
+            <span class="stat-lbl">Holymoly Flagship</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statShotcraft">124</span>
+            <span class="stat-lbl">Shotcraft Cards</span>
+          </div>
+          <div class="stat-box">
+            <span class="stat-num" id="statTotal">129</span>
+            <span class="stat-lbl">Total Motion Styles</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Active Filter Info -->
+      <div class="filter-header">
+        <h3 id="currentCategoryTitle">Semua Jurus Visual</h3>
+        <span class="card-counter" id="activeCardCount">Menampilkan 129 jurus</span>
+      </div>
+
+      <!-- Card Grid -->
+      <div class="card-grid" id="cardGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="emptyState" hidden>
+        <div class="empty-icon">🔎</div>
+        <h4>Tidak ada jurus yang cocok</h4>
+        <p>Coba gunakan kata kunci lain atau bersihkan filter pencarian.</p>
+        <button type="button" class="btn-clear-search" id="btnClearSearch">Reset Pencarian</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- Sticky Bottom Selection Action Dock -->
+  <div class="selection-dock" id="selectionDock" hidden>
+    <div class="dock-inner">
+      <div class="dock-summary">
+        <span class="dock-badge" id="dockSelectedCount">0</span>
+        <div class="dock-info">
+          <strong id="dockInfoTitle">Jurus Terpilih</strong>
+          <span class="dock-names" id="dockSelectedNames">Belum ada jurus yang dipilih</span>
+        </div>
+      </div>
+      <div class="dock-actions">
+        <button type="button" class="btn-dock-clear" id="btnDockClear" title="Hapus semua pilihan">
+          Batal
+        </button>
+        <button type="button" class="btn-dock-raw" id="btnDockRaw" title="Salin tag mentah (@hm-flow-broll, spotlight-hero-card)">
+          Salin Tag Saja
+        </button>
+        <button type="button" class="btn-dock-prompt" id="btnDockPrompt">
+          <span class="icon">✨</span>
+          <span>Salin Prompt Antigravity</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Modal Preview -->
+  <div class="modal-overlay" id="modalOverlay" hidden>
+    <div class="modal-content">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Tutup">✕</button>
+      <div class="modal-video-wrapper">
+        <video id="modalVideo" controls autoplay playsinline loop></video>
+      </div>
+      <div class="modal-details">
+        <div class="modal-tags" id="modalTags"></div>
+        <h3 id="modalTitle"></h3>
+        <p id="modalSummary"></p>
+        <div class="modal-footer">
+          <code id="modalDirective"></code>
+          <button type="button" class="btn-modal-select" id="btnModalSelect">Pilih Jurus Ini</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>

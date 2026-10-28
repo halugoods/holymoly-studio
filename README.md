@@ -23,6 +23,21 @@ Berikut adalah kompilasi hasil video nyata yang diproduksi otomatis oleh **Holym
 | **Fast Editorial Montage**<br>`@hm-montage`<br>*NUSA Proof-Hunting (35s)* | <img src="assets/showcase/showcase_editorial_montage.gif" width="220" alt="Editorial Montage Preview" /> | • 3x3 Tile Reveal & random flash entrance<br>• 2-Frame Strobe krisis per 66ms dengan difference box<br>• Sapuan stabilo kuning `#FFE04A` pada kartu tagihan<br>• Didone shock keyword masif 160px<br>• 3D perspective photo wall UMKM<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1r1uVuH-2_Q7I-gCeN5yCT4MU4ofRJH44/view?usp=sharing) |
 | **Basic Mockup Demo**<br>`@hm-mockup`<br>*NUSA Salon (25s)* | <img src="assets/showcase/showcase_screenrecord_salon.gif" width="220" alt="Screenrecord Mockup Preview" /> | • Vector Samsung Galaxy Z Flip 3 frame terpusat (`cx=540, cy=960`)<br>• Infinite seamless scrolling blurred grid background<br>• Zero Crop: status bar jam/wifi hingga navigasi bawah utuh<br>• Punch-in camera zoom terarah ke tap points<br>• Zero Subtitle Slop (mode demo elegan)<br><br>👉 [🎬 **Tonton Master 1080p (Google Drive)**](https://drive.google.com/file/d/1A1J4zdH7EZ1RTvmuobjh_CKqqb2zTkkr/view?usp=sharing) |
 
+## 🌐 Visual Motion Recipe & Skill Picker (Web Gallery)
+
+Untuk mempermudah pemilihan jurus visual tanpa perlu menghafal nama skill di chat teks Antigravity, kami menyediakan **Web Visual Recipe Picker**:
+
+👉 [**Buka Visual Motion Recipe Picker (GitHub Pages)**](https://halugoods.github.io/holymoly-studio/gallery/)  
+*(Atau jalankan lokal di PC via: `python engine/launch_gallery.py`)*
+
+### Fitur Utama Web Picker:
+- **129 Visual Cards (150 Styles)**: 5 Flagship Holymoly Studio Originals (`@hm-pc-connect`, `@hm-flow-broll`, `@hm-vox`, `@hm-montage`, `@hm-mockup`) + 124 Shotcraft Silicon Valley Motion Recipes.
+- **Pencarian Cepat & Filter Kategori**: Filter instan per kategori (*Opening, UI Entrance, Camera, Data, Interaction, Effects, Transitions, Typography, Outro*) dengan shortcut `⌘K` / `Ctrl+K`.
+- **Live Video Streaming**: Tonton animasi preview bergerak langsung di kartu tanpa download file besar.
+- **Interactive Selection Dock**: Centang jurus-jurus yang disukai, lalu klik **"Salin Prompt Antigravity"** untuk menyalin format instruksi siap pakai yang tinggal ditempel ke chat AI.
+
+---
+
 > 📁 **Arsip Lengkap Seluruh Master Output Video:**  
 > [**Buka Folder Google Drive Holymoly Studio**](https://drive.google.com/drive/folders/14CIAznZOlM9NWapNg9w1Y2WA-raJzUTv?usp=sharing) (Akun `nusabyhalugoodsindonesia@gmail.com`)
 
