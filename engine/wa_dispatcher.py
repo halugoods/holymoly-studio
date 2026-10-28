@@ -4,6 +4,8 @@ WhatsApp Dispatcher via ezpzpay / whatsmeow (Port 3098 RPC)
 Routes video previews, audit frames, and Google Drive links to partners:
 - Session 6c95738a-b866-49c2-8ee4-98794b234d8e -> +62 878-8246-3786
 - Session 25e0f061-2456-43c5-be71-19b9a7e0ab21 -> +62 851-5695-5735
+
+Integrated with Google Drive (nusabyhalugoodsindonesia@gmail.com).
 """
 
 import os
@@ -135,9 +137,10 @@ def send_wa_video(target: str, video_path: str, caption: str = "") -> bool:
         print(f"[WA Dispatcher] SendVideo error: {e}")
         return False
 
-def dispatch_preview(conversation_id: str, video_path: str = None, audit_frames: list = None, gdrive_link: str = None, notes: str = None):
+def dispatch_preview(conversation_id: str, video_path: str = None, audit_frames: list = None, gdrive_link: str = None, notes: str = None, auto_upload_gdrive: bool = True):
     """
     Dispatch preview and cloud download links to WhatsApp based on session routing.
+    Auto-uploads to Google Drive (nusabyhalugoodsindonesia@gmail.com) if gdrive_link is not provided.
     """
     target_jid = SESSION_PHONE_MAP.get(conversation_id)
     if not target_jid:
@@ -145,7 +148,18 @@ def dispatch_preview(conversation_id: str, video_path: str = None, audit_frames:
         target_jid = "6287882463786@s.whatsapp.net"
 
     print(f"[WA Dispatcher] Dispatching to {target_jid} for session {conversation_id}...")
-    
+
+    # Auto-upload to GDrive if not provided
+    if not gdrive_link and video_path and auto_upload_gdrive:
+        try:
+            from engine.gdrive_sync import upload_video_deliverable
+            up = upload_video_deliverable(video_path)
+            if up and up.get("view_link"):
+                gdrive_link = up.get("view_link")
+                print(f"[WA Dispatcher] Auto-uploaded to GDrive: {gdrive_link}")
+        except Exception as e:
+            print(f"[WA Dispatcher] GDrive auto-upload skipped/error: {e}")
+
     # 1. Send header message
     msg = f"🎬 *[Holymoly Studio AI Video Preview]*\nSession: `{conversation_id[:8]}...`"
     if gdrive_link:
